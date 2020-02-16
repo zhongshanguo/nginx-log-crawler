@@ -1,0 +1,11 @@
+{
+  "name": "nginx-log-crawler",
+  "version": "1.0.0",
+  "description": "收集nginx日志，发送到指定的服务器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "knixlee@icloud.com",
+  "license": "ISC"
+}
