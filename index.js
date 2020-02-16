@@ -9,7 +9,6 @@ let server = '127.0.0.1';
 
 function send(log) {
     var str = JSON.stringify(log);
-    console.log(str);
     var options = {
         hostname: server,
         port: 39999,
@@ -51,6 +50,7 @@ function main() {
             server = process.argv[serverArgPos];
         }
     }
+    console.log('server:', server);
 
     var output = fs.createWriteStream("/dev/null");
     var rl = readline.createInterface(process.stdin, output);
